@@ -378,3 +378,4 @@ work = {
     Age : 22,
     Gender : "male"
 };
+console.log(work)
