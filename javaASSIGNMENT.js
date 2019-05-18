@@ -354,22 +354,22 @@ for(let i = 0; i < nameOfWorkers.length; i++){
     let names = `${nameOfWorkers[i].Firstname} ${nameOfWorkers[i].Lastname}`;
     console.log(names);
 };
-// sum of workers salaries
+// the sum of workers salaries
 let salary = 0;
 for(let i = 0; i < nameOfWorkers.length; i++){
       salary += nameOfWorkers[i].Salary;
 };
        console.log(salary);
-// info of worker at index 33
+// the info of worker at index 33
 for(let i = 50; i === nameOfWorkers.length; i++){            
     console.log(nameOfWorkers[i -17]);
 };
-// salary of sofia turner
+// the salary for sofia turner
 for(let i = 0; i < nameOfWorkers.length; i++){
     let income = nameOfWorkers[50 -14].Salary;
     console.log(income);
 };
-// length of the array
+//  The length of the array
 console.log(nameOfWorkers.length);
 let work = nameOfWorkers[49];
 work = {
@@ -379,3 +379,5 @@ work = {
     Gender : "male"
 };
 console.log(work)
+
+//the result//
