@@ -350,26 +350,32 @@ const nameOfWorkers=[
     Salary: 132894
 }
 ];
+//TO PRINT THE FIRSTNAME AND LAST NAME OF ALL WORKERS
+console.log('THE FIRSTNAME AND LAST NAME OF ALL WORKERS');
 for(let i = 0; i < nameOfWorkers.length; i++){
     let names = `${nameOfWorkers[i].Firstname} ${nameOfWorkers[i].Lastname}`;
     console.log(names);
 };
-// the sum of workers salaries
+// TO PRINT THE TOTAL SALARIES OF ALL WORKERS
+console.log('THE TOTAL SALARIES OF ALL WORKERS');
 let salary = 0;
 for(let i = 0; i < nameOfWorkers.length; i++){
       salary += nameOfWorkers[i].Salary;
 };
-       console.log(salary);
-// the info of worker at index 33
+   console.log(salary);
+// TO PRINT THE PERSONAL INFO AT INDEX33
+console.log('THE PERSONAL INFO AT INDEX33');
 for(let i = 50; i === nameOfWorkers.length; i++){            
     console.log(nameOfWorkers[i -17]);
 };
-// the salary for sofia turner
+// THE SALARY OF SOFIA TURNER
+console.log('THE SALARY OF SOFIA TURNER');
 for(let i = 0; i < nameOfWorkers.length; i++){
     let income = nameOfWorkers[50 -14].Salary;
     console.log(income);
 };
-//  The length of the array
+//  THE LENGTH OF THE ARRAY
+console.log('THE LENGTH OF THE ARRAY');
 console.log(nameOfWorkers.length);
 let work = nameOfWorkers[49];
 work = {
@@ -380,4 +386,3 @@ work = {
 };
 console.log(work)
 
-//the result//
